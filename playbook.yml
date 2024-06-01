@@ -1,0 +1,10 @@
+---
+  - hosts: localhost
+    become: yes
+    #
+    roles:
+      - atu_pacotes
+      - inst_nginx
+      - php
+      - wordpress
+      
