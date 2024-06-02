@@ -1,8 +1,0 @@
----
-- name: Atualizar lista de pacotes e instalar pacotes
-  apt:
-    update_cache: yes
-    name:
-      - python3
-      - mysql-client
-      - unzip
