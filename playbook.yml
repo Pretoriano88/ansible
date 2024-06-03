@@ -1,0 +1,11 @@
+---
+  - hosts: localhost
+    become: yes
+    #
+    roles:
+      - wordpress
+      
+      
+      
+      
+      
