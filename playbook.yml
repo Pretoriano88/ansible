@@ -1,0 +1,13 @@
+---
+  - hosts: localhost
+    become: yes
+    #
+    roles:
+      - preparo
+      - php
+      - wordpress
+      - nginx
+      
+      
+      
+      
